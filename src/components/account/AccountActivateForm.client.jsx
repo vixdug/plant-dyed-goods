@@ -61,7 +61,7 @@ export function AccountActivateForm({id, activationToken}) {
       return;
     }
 
-    navigate('/account');
+    navigate('https://drinkadhtea.account.myshopify.com/?locale=ena');
   }
 
   return (
