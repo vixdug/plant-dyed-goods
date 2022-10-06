@@ -46,7 +46,7 @@ export function AccountLoginForm({shopName}) {
         setHasSubmitError(true);
         resetForm();
       } else {
-        navigate('/account');
+        navigate('https://plant-dyed-goods.account.myshopify.com/?locale=en');
       }
     } else {
       setPasswordError(
