@@ -113,6 +113,7 @@ function MobileHeader({countryCode, title, isHome, openCart, openMenu}) {
         <Link to={'https://plant-dyed-goods.account.myshopify.com/?locale=en'} className={styles.button}>
           <IconAccount />
         </Link>
+        <Link to="https://plant-dyed-goods.account.myshopify.com/?locale=en">New Link</Link>
         <button onClick={openCart} className={styles.button}>
           <IconBag />
           <CartBadge dark={isHome} />
